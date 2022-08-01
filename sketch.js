@@ -49,13 +49,13 @@ function setup(){
   buttonS = createButton('Confirm');
   buttonS.position(0, 190);
   buttonS.mousePressed(() => {
-    searchLinks();
+    searchLinks()
   });
   
   buttonSA = createButton('Search');
   buttonSA.position(80, 190);
   buttonSA.mousePressed(() => {
-    testingCode(newM);
+    testingCode(newM)
   });
 
 }
