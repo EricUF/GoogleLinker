@@ -238,11 +238,13 @@ let finTitle2;
 
 
 function searchLinks(){
+
   let term = sourceInput.value();
   let url = searchURL + term;
   
   let term2 = targetInput.value();
   let url2 = searchURL + term2;
+  createDiv('Confirmed for ' + term + ' and ' + term2);
   
   console.log(url);
   console.log(url2);
